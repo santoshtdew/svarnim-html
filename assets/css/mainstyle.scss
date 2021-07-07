@@ -19,8 +19,14 @@ $container-max-widths: (
   xl: 1134px,
   xxl: 1134px
 );
-
-
+.container, .container-fluid, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
+  width: 100%;
+  padding-right: size(16);
+  padding-left:size(16);
+  margin-right: auto;
+  margin-left: auto;
+}
+$grid-gutter-width:size(32);
 @import "custom-variable";
 @import "scss/bootstrap.scss";
 @import "common";

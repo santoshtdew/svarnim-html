@@ -262,7 +262,7 @@ label{
 .gray-scale-2{color:$grayscale-2;}
 .gray-scale-base{color:$grayscale-base}
 .main-sec{
-  padding:size(164) 0 size(40) 0;
+  padding:size(164) 0 size(0) 0;
 }
 .menuOpen {
     overflow: auto;
@@ -270,7 +270,7 @@ label{
 
   @include media-breakpoint-down(lg) {
     .main-sec{
-      padding:size(78) 0 size(40) 0;
+      padding:size(78) 0 size(0) 0;
     }
     .menuOpen {
       overflow: hidden;
