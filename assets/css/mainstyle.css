@@ -12110,11 +12110,6 @@ a {
   display: none;
 }
 
-.footer {
-  background: #546DF5;
-  color: #fff;
-}
-
 .footer .footerbg-img {
   width: 100%;
   height: auto;
@@ -12128,16 +12123,67 @@ a {
      object-fit: cover;
 }
 
-.footer a {
+.footer.text-color-white h5, .footer.text-color-white .h5 {
   color: #fff;
+}
+
+.footer.text-color-white a {
+  color: #fff;
+}
+
+.footer.text-color-white .footer-item {
+  color: #fff;
+}
+
+.footer.text-color-white .footer-item a {
+  color: #fff;
+}
+
+.footer.text-color-white .footer-item ul.footer-item-links li a {
+  color: #fff;
+}
+
+.footer.text-color-white .footer-item ul.footer-item-links li a:hover {
+  color: #fff;
+}
+
+.footer.text-color-white .copyright-sec {
+  border-top: 1px solid rgba(255, 255, 255, 0.48);
+  color: rgba(255, 255, 255, 0.54);
+}
+
+.footer.text-color-dark a {
+  color: #000A18;
+}
+
+.footer.text-color-dark .footer-item a {
+  color: #000A18;
+}
+
+.footer.text-color-dark .footer-item ul.footer-item-links li a {
+  color: #000A18;
+}
+
+.footer.text-color-dark .footer-item ul.footer-item-links li a:hover {
+  color: #000A18;
+}
+
+.footer.text-color-dark .copyright-sec {
+  border-top: 1px solid rgba(0, 10, 24, 0.48);
+  color: #000A18;
+}
+
+.footer.footer-style1 {
+  background: #546DF5;
+}
+
+.footer.footer-style2 {
+  background: #F5B133;
 }
 
 .footer h5, .footer .h5 {
   margin-bottom: 1rem;
-}
-
-.footer .footer-item a {
-  color: #fff;
+  font-family: "Mulish", sans-serif;
 }
 
 .footer .footer-item:not(:last-child) {
@@ -12159,21 +12205,13 @@ a {
 }
 
 .footer .footer-item ul.footer-item-links li a {
-  color: #fff;
   text-decoration: none;
   display: inline-block;
 }
 
-.footer .footer-item ul.footer-item-links li a:hover {
-  color: #fff;
-}
-
 .footer .footer-newletter-sec {
   margin-bottom: 2.75rem;
-}
-
-.footer .footer-newletter-sec .form-control {
-  border-radius: 0rem;
+  margin-top: -1.5rem;
 }
 
 .footer .copyright-sec {
@@ -12212,6 +12250,10 @@ a {
   }
   .footer .row > * {
     margin-bottom: 1.25rem;
+  }
+  .footer .copyright-sec {
+    margin: 1.875rem 1rem 0 1rem;
+    padding: 1.5rem 0;
   }
 }
 
